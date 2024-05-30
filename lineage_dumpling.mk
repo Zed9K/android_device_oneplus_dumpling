@@ -40,3 +40,12 @@ TARGET_VENDOR := oneplus
 
 # Ship with Aperture Camera
 PRODUCT_NO_CAMERA := false
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+PRODUCT_PACKAGES += \
+   Photos \
+   LatinIMEGooglePrebuilt \
+   PrebuiltDeskClockGoogle \
+   CalculatorGooglePrebuilt \
+   CalendarGooglePrebuilt
