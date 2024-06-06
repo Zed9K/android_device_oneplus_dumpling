@@ -38,9 +38,13 @@ BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:10/QKQ1.191014.012/2010292059:u
 
 TARGET_VENDOR := oneplus
 
+# Make it Unofficial instead of Community
+RISING_BUILDTYPE := UNOFFICIAL
 # Ship with Aperture Camera
 PRODUCT_NO_CAMERA := false
+# Ship with Blur
 TARGET_ENABLE_BLUR := true
+# Ship with Gapps
 WITH_GMS := true
 TARGET_CORE_GMS := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
