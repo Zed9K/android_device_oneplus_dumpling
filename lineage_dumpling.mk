@@ -40,6 +40,8 @@ TARGET_VENDOR := oneplus
 
 # Ship with Aperture Camera
 PRODUCT_NO_CAMERA := false
+# Support call recording on Google Dialer
+TARGET_SUPPORTS_CALL_RECORDING := true
 # Ship with Blur
 TARGET_ENABLE_BLUR := true
 # Ship with Gapps
