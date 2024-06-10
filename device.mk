@@ -43,3 +43,9 @@ PRODUCT_PACKAGES += \
 
 # Inherit from oneplus msm8998-common
 $(call inherit-product, device/oneplus/msm8998-common/common.mk)
+
+# Flipendo
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/flipendo
+
+# Sign builds
+-include vendor/lineage-priv/keys/keys.mk
