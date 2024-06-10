@@ -37,6 +37,16 @@ BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:10/QKQ1.191014.012/2010292059:u
 TARGET_VENDOR := oneplus
 
 
-# Stuff by Zed for Project Matrixx
+# Boot animation Res
 TARGET_BOOT_ANIMATION_RES := 1080
+# Maintainer
 MATRIXX_MAINTAINER := Zed
+# Support call recording on Google Dialer
+TARGET_SUPPORTS_CALL_RECORDING := true
+# Ship with Blur
+TARGET_ENABLE_BLUR := true
+# Ship with Gapps
+WITH_GMS := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
