@@ -36,11 +36,19 @@ BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:10/QKQ1.191014.012/2010292059:u
 
 TARGET_VENDOR := oneplus
 
-# Stuff for Alphadroid by Zed
+# Add Support For Blur
+TARGET_ENABLE_BLUR := true
+# Remove AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
+# Support Face unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
+# Build package - 1 for Vanilla
 TARGET_BUILD_PACKAGE := 1
+# Launcher - 1 for stock
 TARGET_LAUNCHER := 1
+# Remove MATLOG
 TARGET_INCLUDE_MATLOG := false
+# Build Type - Unofficial
 ALPHA_BUILD_TYPE := Unofficial
+# Maintainer's name
 ALPHA_MAINTAINER := Zed
