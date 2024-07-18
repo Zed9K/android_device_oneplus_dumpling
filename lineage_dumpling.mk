@@ -45,6 +45,10 @@ MATRIXX_MAINTAINER := Zed
 TARGET_SUPPORTS_CALL_RECORDING := true
 # Ship with Blur
 TARGET_ENABLE_BLUR := true
+# Remove AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+# Remove MATLOG
+TARGET_INCLUDE_MATLOG := false
 # Ship with Gapps
 WITH_GMS := true
 BUILD_GOOGLE_CONTACTS := true
