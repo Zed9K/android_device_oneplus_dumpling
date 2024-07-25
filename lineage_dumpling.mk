@@ -49,7 +49,7 @@ WITH_GMS := true
 TARGET_CORE_GMS := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 PRODUCT_PACKAGES += \
-   Photos \
+   MarkupGoogle \
    LatinIMEGooglePrebuilt \
    PrebuiltDeskClockGoogle \
    CalculatorGooglePrebuilt \
