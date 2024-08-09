@@ -44,6 +44,8 @@ PRODUCT_NO_CAMERA := false
 TARGET_SUPPORTS_CALL_RECORDING := true
 # Ship with Blur
 TARGET_ENABLE_BLUR := true
+# Remove MATLOG
+TARGET_INCLUDE_MATLOG := false
 # Ship with Gapps
 WITH_GMS := true
 TARGET_CORE_GMS := true
