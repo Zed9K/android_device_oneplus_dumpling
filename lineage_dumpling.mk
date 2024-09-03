@@ -39,8 +39,6 @@ TARGET_VENDOR := oneplus
 EVEREST_MAINTAINER := "Zed"
 # Adding Blur support
 TARGET_SUPPORTS_BLUR := true
-# Build GAPPS\Vanilla
-WITH_GAPPS := true
 # Support call recording on Google Dialer
 TARGET_SUPPORTS_CALL_RECORDING := true
 # Remove MATLOG
