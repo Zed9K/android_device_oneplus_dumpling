@@ -39,6 +39,9 @@ PRODUCT_PACKAGES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
+
+# Sign builds
+-include vendor/lineage-priv/keys/keys.mk
     DumplingWifiOverlay
 
 # Inherit from oneplus msm8998-common
