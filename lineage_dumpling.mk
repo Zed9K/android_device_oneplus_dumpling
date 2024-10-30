@@ -22,19 +22,15 @@ PRODUCT_MODEL := ONEPLUS A5010
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
-PRODUCT_SYSTEM_DEVICE := OnePlus5T
-PRODUCT_SYSTEM_NAME := OnePlus5T
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=OnePlus5T \
-    TARGET_PRODUCT=OnePlus5T \
+    BuildDesc="OnePlus5T-user 10 QKQ1.191014.012 2010292059 release-keys" \
+    BuildFingerprint=OnePlus/OnePlus5T/OnePlus5T:10/QKQ1.191014.012/2010292059:user/release-keys \
+    DeviceName=OnePlus5T \
+    DeviceProduct=OnePlus5T \
+    SystemDevice=OnePlus5T \
+    SystemName=OnePlus5T \
     RISING_CHIPSET="Snapdragon 835" \
     RISING_MAINTAINER="Zed"
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="OnePlus5T-user 10 QKQ1.191014.012 2010292059 release-keys"
-
-BUILD_FINGERPRINT := OnePlus/OnePlus5T/OnePlus5T:10/QKQ1.191014.012/2010292059:user/release-keys
 
 TARGET_VENDOR := oneplus
 
@@ -46,13 +42,3 @@ TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_ENABLE_BLUR := true
 # Remove MATLOG
 TARGET_INCLUDE_MATLOG := false
-# Ship with Gapps
-WITH_GMS := true
-TARGET_CORE_GMS := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := false
-PRODUCT_PACKAGES += \
-   MarkupGoogle \
-   LatinIMEGooglePrebuilt \
-   PrebuiltDeskClockGoogle \
-   CalculatorGooglePrebuilt \
-   CalendarGooglePrebuilt
