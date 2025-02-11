@@ -31,3 +31,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemName=OnePlus5T
 
 TARGET_VENDOR := oneplus
+
+# Support call recording on Google Dialer
+TARGET_SUPPORTS_CALL_RECORDING := true
+# Ship with Blur
+TARGET_ENABLE_BLUR := true
+# Remove MATLOG
+TARGET_INCLUDE_MATLOG := false
+# GApps ( Vanilla )
+WITH_GMS := false
+# BCR
+BUILD_BCR := true
